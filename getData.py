@@ -3,16 +3,6 @@ import re
 from translate import translate_text
 
 from init import initial
-#
-# Consumer_key = 'h94izFOfuCPbYmpdk1rM24Yv7'
-# Consumer_secret = 'pvA7FxQVtn0b6PUb7uMvrWQ0DRxs3ZdVHPtfdk1f6csmaiUtt1'
-# Access_token = '1293695468514418688-tzyX76JS3jipdq94PD0S5oD2clnIU0'
-# Access_secret = 'cUxxUA9vXrvBvcCVy0kX7cKq1i6KkX4YFWjGgDI0DdzMO'
-#
-# # OAuth認証
-# auth = tweepy.OAuthHandler(Consumer_key, Consumer_secret)
-# auth.set_access_token(Access_token, Access_secret)
-# API = tweepy.API(auth)
 API = initial()
 tweets = []
 
